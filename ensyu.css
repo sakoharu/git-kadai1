@@ -4,6 +4,7 @@
   padding: 0;
 }
 
+
 header{
   height: 50px;
   background-color: #ff9a4b;
@@ -12,7 +13,7 @@ header{
 main{
   width: 960px;
   margin: 50px auto;
-  display: inline-block;
+  display: flex;
 }
 
 
@@ -55,13 +56,14 @@ main{
 }
 
 .title{
-  margin: 15px 0;
+  margin: 15px  0 5px;
 }
 
 footer{
   height: 50px;
   background-color: #aaaaaa
 }
+
 
 @media screen and (max-width: 768px) {
 
@@ -73,12 +75,14 @@ footer{
 
   main{
   width: 100%;
-  margin: 50px 0 50px 0;
+  margin: 30px 0 30px 0;
   display: inline-block;
 }
 
 .step-box{
-  width: 100%;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 20px;
   padding: 10px;
   position: relative;
@@ -98,7 +102,7 @@ footer{
   background-size: cover;
 }
 .step-img3{
-  height: 150px;
+  height: 150px; 
   background-image: url(img/flow03.png);
   background-position: bottom;
   background-size: cover;
@@ -122,6 +126,3 @@ footer{
 }
 
 }
-
-
-
