@@ -6,6 +6,7 @@
 
 
 header{
+  width: 100%;
   height: 50px;
   background-color: #ff9a4b;
 }
@@ -60,6 +61,7 @@ main{
 }
 
 footer{
+  width: 100%;
   height: 50px;
   background-color: #aaaaaa
 }
@@ -67,11 +69,6 @@ footer{
 
 @media screen and (max-width: 768px) {
 
-  header{
-  width: 100%;
-  height: 50px;
-  background-color: #ff9a4b;
-}
 
   main{
   width: 100%;
@@ -81,48 +78,14 @@ footer{
 
 .step-box{
   width: 90%;
-  margin-left: auto;
   margin-right: auto;
+  margin-left: auto;
   margin-top: 20px;
   padding: 10px;
   position: relative;
   background-color: #eeeeee;
 }
-
-.step-img1{
-  height: 150px;
-  background-image: url(img/flow01.png);
-  background-position: bottom;
-  background-size: cover;
+.step-box:last-child{
+  margin-right: auto;
 }
-.step-img2{
-  height: 150px;
-  background-image: url(img/flow02.png);
-  background-position: bottom;
-  background-size: cover;
-}
-.step-img3{
-  height: 150px; 
-  background-image: url(img/flow03.png);
-  background-position: bottom;
-  background-size: cover;
-}
-.step-num{
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: #ff9a4b;
-  color: #fff
-}
-
-.title{
-  margin: 15px 0;
-}
-
-footer{
-  width: 100% ;
-  height: 50px;
-  background-color: #aaaaaa
-}
-
 }
